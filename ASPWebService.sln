@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ASPWebService", "ASPWebService\", "{F46C9390-0337-475F-A9E4-2F860B342D2E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64561"
+		Debug.AspNetCompiler.PhysicalPath = "ASPWebService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64561\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64561"
+		Release.AspNetCompiler.PhysicalPath = "ASPWebService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64561\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64561"
+		SlnRelativePath = "ASPWebService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ASPWebServiceTest", "ASPWebServiceTest\", "{F05F0234-6E59-478E-BC89-D0F4EBE0A6EC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64958"
+		Debug.AspNetCompiler.PhysicalPath = "ASPWebServiceTest\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64958\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64958"
+		Release.AspNetCompiler.PhysicalPath = "ASPWebServiceTest\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64958\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64958"
+		SlnRelativePath = "ASPWebServiceTest\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{F46C9390-0337-475F-A9E4-2F860B342D2E} = {F46C9390-0337-475F-A9E4-2F860B342D2E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulLang", "..\MulLang\MulLang\MulLang.csproj", "{BB21B8C7-7EFC-47ED-856C-5979DB350EE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F46C9390-0337-475F-A9E4-2F860B342D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46C9390-0337-475F-A9E4-2F860B342D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46C9390-0337-475F-A9E4-2F860B342D2E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46C9390-0337-475F-A9E4-2F860B342D2E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F05F0234-6E59-478E-BC89-D0F4EBE0A6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05F0234-6E59-478E-BC89-D0F4EBE0A6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05F0234-6E59-478E-BC89-D0F4EBE0A6EC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05F0234-6E59-478E-BC89-D0F4EBE0A6EC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BB21B8C7-7EFC-47ED-856C-5979DB350EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB21B8C7-7EFC-47ED-856C-5979DB350EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB21B8C7-7EFC-47ED-856C-5979DB350EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB21B8C7-7EFC-47ED-856C-5979DB350EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F9B4E21-654F-48DC-B850-C0D3833E0DF6}
+	EndGlobalSection
+EndGlobal
